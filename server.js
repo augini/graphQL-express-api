@@ -79,7 +79,7 @@ const RootQuery = new GraphQLObjectType({
     },
     authors: {
       type: GraphQLList(AuthorType),
-      description: 'List of all authors',
+      description: 'List of all authorsf',
       resolve: () => authors,
     },
     author: {
